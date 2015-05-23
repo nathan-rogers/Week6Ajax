@@ -1,0 +1,30 @@
+﻿@{
+    ViewBag.Title = "About";
+}
+<h2>@ViewBag.Title.</h2>
+<h3>@ViewBag.Message</h3>
+<div class="container">
+    <div class="tabs">
+
+        <ul class="nav nav-tabs">
+            <li class="active" id="who"><a data-link="who-content">Who</a></li>
+            <li id="what"><a data-link="what-content">What</a></li>
+            <li id="why"><a data-link="why-content">Why</a></li>
+            <li id="how"><a data-link="how-content">How</a></li>
+            <li id="where"><a data-link="where-content">Where</a></li>
+
+        </ul>
+
+    </div>
+    <div class="tab-content">
+        <ul class="nav nav-tabs">
+            <li class="active" id="who-content">Who</li>
+            <li class ="hide" id="what-content">What</li>
+            <li class="hide" id="why-content">Why</li>
+            <li class="hide" id="how-content">How</li>
+            <li class="hide" id="where-content">Where</li>
+
+        </ul>
+
+    </div>
+</div>

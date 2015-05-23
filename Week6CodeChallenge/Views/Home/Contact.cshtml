@@ -1,0 +1,44 @@
+﻿@{
+    ViewBag.Title = "Contact";
+}
+
+<div class="container" id="contact-form">
+    <div class="row clearfix">
+        <form class="contact-form" action="@Url.Action("Contact", "Home")" method="post">
+            <div class="col-md-12 column">
+                <div class="row clearfix">
+                    <div class="col-md-6 column">
+                        <input class="text-field" type="text" required id="FirstName" placeholder="First Name" name="FirstName" />
+                    </div>
+                    <div class="col-md-6 column">
+                        <input class="text-field" type="text" required id="LastName" placeholder="Last Name" name="LastName" />
+                    </div>
+                </div>
+                <div class="row clearfix">
+                    <div class="col-md-6 column">
+                        <input class="text-field" type="email" required id="Email" placeholder="Email" name="Email" />
+                    </div>
+                    <div class="col-md-6 column">
+                        <input class="text-field" type="text" required id="PhoneNumber" placeholder="Phone Number" name="PhoneNumber" />
+                    </div>
+                </div>
+                <div class="row clearfix">
+                    <div class="col-md-12 column">
+                        <input class="text-field" type="text" required id="CompanyName" placeholder="Company Name" name="CompanyName" />
+                    </div>
+                </div>
+                <div class="row clearfix">
+                    <div class="col-md-12 column">
+                        <input class="text-field" type="text" required id="ProjectDesription" placeholder="Project Description" name="ProjectDescription" />
+                    </div>
+                </div>
+                <div class="row clearfix">
+                    <div class="col-md-12 column">
+                        <textarea class="text-field" required id="Comment" placeholder="Comment" name="Comment"></textarea>
+                    </div>
+                </div>
+            </div>
+            <input type="submit" />
+        </form>
+    </div>
+</div>

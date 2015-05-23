@@ -1,0 +1,56 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+#contact-form .row .text-field{
+    display:block;
+    margin-top:20px;
+    margin-bottom: 5px;
+    width: 1000px;
+    font-size: 20px;
+}
+#CompanyName{
+    display:block;
+    width:2000px;
+}
+.nav li{
+    margin-top:70px;
+    font-size: 22px;
+    margin-left:10px;
+    display: block;
+}
+.nav{
+    
+    border-radius: 10px;
+    border: none;
+}
+
+.landing-section .col-md-4{
+    width: 300px;
+    margin-top: 60px;
+    padding-right: 50px;
+    margin-left: 40px;
+    height: 300px;
+    border-radius: 4px;
+    border: 1px solid #cfcfcf;
+}
